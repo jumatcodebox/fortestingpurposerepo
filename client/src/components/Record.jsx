@@ -36,7 +36,7 @@ export default function Record() {
     return;
   }, [params.id, navigate]);
 
-  // These methods will update the state properties.
+  // These methods will update the state properties...TEST...
   function updateForm(value) {
     return setForm((prev) => {
       return { ...prev, ...value };
